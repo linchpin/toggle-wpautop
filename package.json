@@ -1,0 +1,60 @@
+{
+  "name": "toggle-wpautop",
+  "version": "1.3.0",
+  "description": "Easily disable the default WordPress wpautop filter on a post by post basis.",
+  "main": "gulpfile.babel.js",
+  "scripts": {
+    "start": "gulp",
+    "build": "gulp build:release --production --release"
+  },
+  "author": "Linchpin <sayhi@linchpin.com>",
+  "license": "GPL",
+  "dependencies": {},
+  "devDependencies": {
+    "@babel/core": "7.7.7",
+    "@babel/preset-env": "7.7.7",
+    "@babel/register": "7.7.7",
+    "autoprefixer": "9.7.3",
+    "babel-loader": "8.0.6",
+    "through2": "^3.0.1",
+    "gulp": "4.0.2",
+    "gulp-babel": "8.0.0",
+    "gulp-bump": "3.1.3",
+    "gulp-cli": "2.2.0",
+    "gulp-concat": "2.6.1",
+    "gulp-extname": "0.2.2",
+    "gulp-if": "3.0.0",
+    "gulp-load-plugins": "1.6.0",
+    "gulp-readme-to-markdown": "0.2.1",
+    "gulp-replace": "^1.0.0",
+    "gulp-sourcemaps": "2.6.5",
+    "gulp-uglify": "3.0.2",
+    "js-yaml": "3.13.1",
+    "rimraf": "2.7.1",
+    "vinyl-named": "1.1.0",
+    "webpack": "4.41.3",
+    "webpack-stream": "5.2.1",
+    "yargs": "12.0.5"
+  },
+  "resolutions": {
+    "lodash.template": "^4.5.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/linchpin/toggle-wpautop.git"
+  },
+  "bugs": {
+    "url": "https://github.com/linchpin/toggle-wpautop/issues",
+    "email": "sayhi@linchpin.com"
+  },
+  "engines": {
+    "node": ">= 10.13.0"
+  },
+  "private": true,
+  "browserslist": [
+    "last 1 version",
+    "> 1%",
+    "maintained node versions",
+    "not dead"
+  ]
+}

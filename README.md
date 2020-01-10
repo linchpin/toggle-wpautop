@@ -1,6 +1,10 @@
-# Toggle wpautop #
+# WordPress Toggle wpautop #
 
-Easily disable the default wpautop filter on a post by post basis.
+Easily disable the default WordPress wpautop filter on a post by post basis.
+
+![Linchpin](https://github.com/linchpin/brand-assets/blob/master/github-opensource-banner.png?raw=true)
+
+![Build Status](https://github.com/linchpin/toggle-wpautop/workflows/Create%20Release/badge.svg)
 
 ## Description ##
 

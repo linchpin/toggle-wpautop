@@ -1,3 +1,5 @@
+![Toggle wpautop](https://github.com/linchpin/toggle-wpautop/blob/master/.wordpress-org/banner-1544x500.png?raw=true)
+
 # WordPress Toggle wpautop #
 
 Easily disable the default WordPress wpautop filter on a post by post basis.
@@ -5,7 +7,7 @@ Easily disable the default WordPress wpautop filter on a post by post basis.
 ![Linchpin](https://github.com/linchpin/brand-assets/blob/master/github-opensource-banner.png?raw=true)
 
 ![Build Status](https://github.com/linchpin/toggle-wpautop/workflows/Create%20Release/badge.svg)
-
+[![Maintainability](https://api.codeclimate.com/v1/badges/b0952123b4fc04922a85/maintainability)](https://codeclimate.com/github/linchpin/toggle-wpautop/maintainability)
 ## Description ##
 
 **Note: This plugin does not support the block editor but should continue to work without issue when using it with custom post types and the [Classic Editor Plugin](https://wordpress.org/plugins/classic-editor/).**

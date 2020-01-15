@@ -1,6 +1,12 @@
-# WordPress Toggle wpautop #
+![Toggle wpautop](https://github.com/linchpin/toggle-wpautop/blob/master/.wordpress-org/banner-1544x500.png?raw=true)
 
-Easily disable the default WordPress wpautop filter on a post by post basis.
+![Build Status](https://github.com/linchpin/toggle-wpautop/workflows/Deploy%20to%20WordPress.org/badge.svg) ![Maintainability](https://codeclimate.com/github/linchpin/toggle-wpautop/maintainability)
+
+# Toggle wpautop #
+
+Easily disable the default wpautop filter on a post by post basis.
+
+
 
 ## Description ##
 
@@ -27,4 +33,3 @@ Also adds a 'wpautop', or 'no-wpautop' class to the post_class filter to help wi
 2. Settings->Writing page with plugin settings.
 
 ![Linchpin](https://github.com/linchpin/brand-assets/blob/master/github-opensource-banner.png?raw=true)
-

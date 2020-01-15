@@ -4,10 +4,10 @@ on:
     tags:
       - 'v*' # Push events to matching v*, i.e. v1.0, v20.15.10
 
-name: Create Release
+name: Deploy to WordPres.org
 
 jobs:
-  build:
+  tag:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code
@@ -27,3 +27,8 @@ jobs:
             New Release
           draft: false
           prerelease: false
+      - name: WordPress Plugin Deploy
+        uses: 10up/action-wordpress-plugin-deploy@1.4.0
+        env:
+          SVN_PASSWORD: ${{ secrets.SVN_PASSWORD }}
+          SVN_USERNAME: ${{ secrets.SVN_USERNAME }}

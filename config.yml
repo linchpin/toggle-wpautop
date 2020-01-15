@@ -30,3 +30,9 @@ PATHS:
     - "assets/js/toggle-wpautop-admin.js"
 
 LOCAL_PATH: "http://togglewpautop.test"
+
+BANNERS:
+  plugin: "![Toggle wpautop](https://github.com/linchpin/toggle-wpautop/blob/master/.wordpress-org/banner-1544x500.png?raw=true)"
+  build_status: "![Build Status](https://github.com/linchpin/toggle-wpautop/workflows/Deploy%20to%20WordPress.org/badge.svg)"
+  maintain: "![Maintainability](https://codeclimate.com/github/linchpin/toggle-wpautop/maintainability)"
+  linchpin: "![Linchpin](https://github.com/linchpin/brand-assets/blob/master/github-opensource-banner.png?raw=true)"
